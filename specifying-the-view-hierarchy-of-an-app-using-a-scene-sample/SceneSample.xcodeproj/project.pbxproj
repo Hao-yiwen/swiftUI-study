@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3963F20C2AD44F16007C5211 /* TextUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963F20B2AD44F16007C5211 /* TextUIView.swift */; };
 		68817B372835313000AEE787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68817B362835313000AEE787 /* Assets.xcassets */; };
 		68817B3B2835313000AEE787 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68817B3A2835313000AEE787 /* Preview Assets.xcassets */; };
 		68817B582835325D00AEE787 /* JournalEntryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68817B512835325D00AEE787 /* JournalEntryListItem.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3963F20B2AD44F16007C5211 /* TextUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUIView.swift; sourceTree = "<group>"; };
 		68817B2F2835312F00AEE787 /* SceneSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68817B362835313000AEE787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68817B382835313000AEE787 /* SceneSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SceneSample.entitlements; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				68817B532835325D00AEE787 /* JournalEntryView.swift */,
 				68817B622835341200AEE787 /* SettingsView.swift */,
 				68817B6828353D0200AEE787 /* SettingsDetailView.swift */,
+				3963F20B2AD44F16007C5211 /* TextUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68817B5C2835325D00AEE787 /* JournalEntry.swift in Sources */,
+				3963F20C2AD44F16007C5211 /* TextUIView.swift in Sources */,
 				68817B592835325D00AEE787 /* DateView.swift in Sources */,
 				68817B5F2835338F00AEE787 /* MyAlternativeScene.swift in Sources */,
 				68817B632835341300AEE787 /* SettingsView.swift in Sources */,
