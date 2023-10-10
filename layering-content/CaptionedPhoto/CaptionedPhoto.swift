@@ -14,7 +14,7 @@ struct CaptionedPhoto: View {
             .overlay(alignment: .bottom) {
                 Caption(text: captionText)
             }
-            .clipShape(RoundedRectangle(cornerRadius: 10.0, style: .continuous))
+            .clipShape(RoundedRectangle(cornerRadius: 20.0, style: .continuous))
             .padding()
     }
 }
