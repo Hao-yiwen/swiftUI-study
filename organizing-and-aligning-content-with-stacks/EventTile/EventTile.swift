@@ -15,7 +15,7 @@ struct EventTile: View {
     let event: Event
     let stripeHeight = 15.0
     var body: some View {
-        HStack(alignment: .firstTextBaseline) {
+        HStack(alignment: .top) {
             Image(systemName: event.symbol)
                 .font(.title)
             VStack(alignment: .leading) {
