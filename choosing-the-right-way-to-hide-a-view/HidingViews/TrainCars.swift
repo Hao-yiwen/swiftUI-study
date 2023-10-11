@@ -13,7 +13,7 @@ struct TrainCars: View {
                 Text("Conditional:")
                 HStack {
                     Image(systemName: "train.side.rear.car")
-                    if longerTrain {
+                    if !longerTrain {
                         Image(systemName: "train.side.middle.car")
                     }
                     Image(systemName: "train.side.front.car")
@@ -40,3 +40,4 @@ struct TrainCars_Previews: PreviewProvider {
             .frame(width: 350)
     }
 }
+/Users/yw.hao/Downloads/swiftUI-study/choosing-the-right-way-to-hide-a-view/HidingViews/TrainCars.swift
