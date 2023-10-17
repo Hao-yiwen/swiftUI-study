@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Image Gallery",
+    name: "Meme Creator",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "Image Gallery",
+            name: "Meme Creator",
             targets: ["App"],
             teamIdentifier: "84F8R9TAQN",
             displayVersion: "1.0",
@@ -29,16 +29,16 @@ let package = Package(
                 .landscapeRight,
                 .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
+            ],
+            capabilities: [
+                .outgoingNetworkConnections()
             ]
         )
     ],
     targets: [
         .executableTarget(
             name: "App",
-            path: "App",
-            resources: [
-                .process("Resources")
-            ]
+            path: "App"
         )
     ]
 )

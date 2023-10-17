@@ -10,6 +10,7 @@ struct HalfCard: View {
             Image(systemName: "crown.fill")
                 .font(.system(size: 80))
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
         //#-learning-code-snippet(6.debugFrameCorrection)
         .overlay (alignment: .topLeading) {
             VStack {
@@ -22,6 +23,8 @@ struct HalfCard: View {
             }
             .padding()
         }
+        .background(.green)
+        
         //#-learning-code-snippet(6.debugFrameQuestion)
         //#-learning-code-snippet(6.debugFrame)
         //#-learning-code-snippet(6.debugBorder)
@@ -30,7 +33,7 @@ struct HalfCard: View {
 
 struct DebuggingView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             HalfCard()
             HalfCard()
                 .rotationEffect(.degrees(180))
