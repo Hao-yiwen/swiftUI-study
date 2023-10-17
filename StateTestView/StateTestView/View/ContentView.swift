@@ -12,19 +12,9 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            VStack {
-                Button(action: {
-                    settings.score += 1
-                }) {
-                    Text("Increase Score")
-                }
-                NavigationLink(destination: DetailView()) {
-                    Text("Show Detail View")
-                }
-                Text("Score: \(settings.score)")
-            }
+            WebView(urlString: "https://www.baidu.com")
+                .navigationBarTitle("OpenAI", displayMode: .inline)
         }
-        .environmentObject(settings)  // 提供环境对象给下级视图
     }
 }
 #Preview {

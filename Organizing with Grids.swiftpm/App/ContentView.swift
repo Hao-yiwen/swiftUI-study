@@ -6,7 +6,7 @@ See the License.txt file for this sample’s licensing information.
 import SwiftUI
 
 struct ContentView: View {
-    let columnLayout = Array(repeating: GridItem(), count: 3)
+    let columnLayout = Array(repeating: GridItem(), count: 4)
 
     @State private var selectedColor = Color.gray
 
@@ -41,7 +41,7 @@ struct ContentView: View {
                             selectedColor = color
                         } label: {
                             RoundedRectangle(cornerRadius: 4.0)
-                                .aspectRatio(1.0, contentMode: ContentMode.fit)
+                                .aspectRatio(1.0, contentMode: ContentMode.fill)
                                 .foregroundColor(color)
                         }
                         .buttonStyle(.plain)
