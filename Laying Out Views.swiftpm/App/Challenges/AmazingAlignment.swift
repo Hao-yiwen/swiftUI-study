@@ -25,11 +25,13 @@ struct AmazingAlignment: View {
                 .frame(maxWidth: .infinity, maxHeight: 10)
             HStack(spacing: 20) {
                 Spacer()
+                    
                 Image(systemName: "books.vertical.fill")
                     .font(.system(size: 40))
                     .background(Color.yellow)
                 Image(systemName: "books.vertical.fill")
                     .font(.system(size: 40))
+                    .background(.blue)
                     .padding(.trailing, 20)
             }
             .background(Color.mint)
