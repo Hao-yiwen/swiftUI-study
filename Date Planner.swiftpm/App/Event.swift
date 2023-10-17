@@ -21,7 +21,7 @@ struct Event: Identifiable, Hashable {
     }
     
     var isPast: Bool {
-        date < Date.now
+        date < .now
     }
     
     var isWithinSevenDays: Bool {
