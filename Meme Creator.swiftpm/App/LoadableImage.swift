@@ -8,7 +8,7 @@ struct LoadableImage: View {
     var imageMetadata: Panda
     
     var body: some View {
-        AsyncImage(url: imageMetadata.imageUrl) { phase in 
+        AsyncImage(url: imageMetadata.imageUrl) { phase in
             if let image = phase.image {
                 image
                     .resizable()
