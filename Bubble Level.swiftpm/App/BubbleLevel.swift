@@ -8,7 +8,7 @@ struct BubbleLevel: View {
     @EnvironmentObject var detector: MotionDetector
 
     let range = Double.pi
-    let levelSize: CGFloat = 300
+    let levelSize: CGFloat = 500
 
     var bubbleXPosition: CGFloat {
         let zeroBasedRoll = detector.roll + range / 2
