@@ -6,12 +6,13 @@ import SwiftUI
 
 struct DragView: View {
     private let circleSize: CGFloat = 100
-    @State private var offset = CGSize.zero
+    @State private var x: CGFloat = 0
+    @State private var y: CGFloat = 0
     var dragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
-                offset = CGSize(width: value.startLocation.x + value.translation.width - circleSize/2,
-                                height: value.startLocation.y + value.translation.height - circleSize/2)
+                x = value.startLocation.x + value.translation.width - circleSize/2
+                y = value.startLocation.y + value.translation.height - circleSize/2
             }
     }
 
@@ -22,7 +23,7 @@ struct DragView: View {
             Circle()
                 .foregroundColor(.teal)
                 .frame(width: circleSize, height: circleSize)
-                .offset(offset)
+                .offset(x: x, y: y)
                 .gesture(dragGesture)
             Spacer()
         }
@@ -30,7 +31,8 @@ struct DragView: View {
         .padding()
         .toolbar {
             Button("Reset") {
-                offset = .zero
+                x = 0
+                y = 0
             }
         }
     }

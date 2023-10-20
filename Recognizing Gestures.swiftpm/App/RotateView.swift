@@ -5,7 +5,7 @@ See the License.txt file for this sample’s licensing information.
 import SwiftUI
 
 struct RotateView: View {
-    @State private var rotation = Angle.zero
+    @State private var rotation: Angle = Angle(degrees: 0)
     
     var rotationGesture: some Gesture {
         RotationGesture()
