@@ -11,7 +11,7 @@ struct DragNDropDotsView: View {
     @State private var scaleFactor : CGFloat = 1
     @State private var isAnimating : Bool = false
     
-    let springAnimation = Animation.spring(response: 0.4, dampingFraction: 0.5, blendDuration: 0.3)
+    let springAnimation = Animation.spring(response: 0.4, dampingFraction: 0.5, blendDuration: 3)
     let numCircles = 375
     let animationSpeed : Double = 400
     let scaleIncrease = 0.2

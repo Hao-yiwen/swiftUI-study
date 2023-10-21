@@ -93,7 +93,10 @@ class ViewController: UIViewController {
         
     }
     @objc func phoneLoginClick(_ sender: UIButton) {
+        print("\(sender.titleLabel!.text!)")
         
+        let target = SettingController()
+        navigationController?.pushViewController(target, animated: true)
     }
     
 

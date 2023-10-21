@@ -93,11 +93,12 @@ struct DancingDotsView: View {
                         Circle()
                             .offset(bigDot.offset)
                             .foregroundColor(bigDot.color)
-                            .scaleEffect(bigDot.scale)
+                            .scaleEffect(2)
+                        
                         ForEach(bigDot.smallDots) { smallDot in
                             Circle()
                                 .offset(smallDot.offset)
-                                .foregroundColor(smallDot.color)
+                                .foregroundColor(.blue)
                         }
                     }
                 }

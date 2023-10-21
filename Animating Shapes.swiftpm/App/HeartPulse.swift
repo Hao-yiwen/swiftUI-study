@@ -37,7 +37,6 @@ struct ResetHeart: View {
         Heart()
             .frame(width: 100, height: 100)
             .foregroundColor(.red)
-            .background(.blue)
             .shadow(color: .pink, radius: 10)
             .frame(width: 300, height: 300)
            
