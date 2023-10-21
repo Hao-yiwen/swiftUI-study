@@ -12,6 +12,7 @@ struct LongPressView: View {
         CGSize(width: 200, height: 40),
         CGSize(width: 50, height: 250),
         CGSize(width: 220, height: 100),
+        CGSize(width: 390, height: 30),
         CGSize(width: 90, height: 90),
     ]
     

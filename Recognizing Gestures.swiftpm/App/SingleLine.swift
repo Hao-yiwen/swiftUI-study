@@ -27,7 +27,10 @@ struct SingleLine: View {
                 path.addLine(to: lineEnd)
             }
             .stroke(Color.green, lineWidth: 8.0)
-            .contentShape(Rectangle())
+            .contentShape(
+                Rectangle()
+            )
+            .background(.blue)
             .gesture(lineDrawingGesture)
         }
         .navigationTitle("Line Drawing")
