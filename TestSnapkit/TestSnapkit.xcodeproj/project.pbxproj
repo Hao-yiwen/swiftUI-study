@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395E34042AE3AB95009C9A3A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E34032AE3AB95009C9A3A /* SettingView.swift */; };
+		395E34072AE3B1C2009C9A3A /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E34062AE3B1C2009C9A3A /* SettingController.swift */; };
 		39B8A0F22AE1883A002D8CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8A0F12AE1883A002D8CA6 /* AppDelegate.swift */; };
 		39B8A0F62AE1883A002D8CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8A0F52AE1883A002D8CA6 /* ViewController.swift */; };
 		39B8A0FB2AE1883D002D8CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B8A0FA2AE1883D002D8CA6 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		1196A5BEA1A74C9072281FEF /* Pods-TestSnapkit-TestSnapkitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSnapkit-TestSnapkitUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestSnapkit-TestSnapkitUITests/Pods-TestSnapkit-TestSnapkitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3571E1A0B4C19D5C3095B990 /* Pods-TestSnapkitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSnapkitTests.release.xcconfig"; path = "Target Support Files/Pods-TestSnapkitTests/Pods-TestSnapkitTests.release.xcconfig"; sourceTree = "<group>"; };
+		395E34032AE3AB95009C9A3A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		395E34062AE3B1C2009C9A3A /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		39B8A0EE2AE1883A002D8CA6 /* TestSnapkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSnapkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B8A0F12AE1883A002D8CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39B8A0F52AE1883A002D8CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		395E34022AE3AB2F009C9A3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				395E34032AE3AB95009C9A3A /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		395E34052AE3B18B009C9A3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				395E34062AE3B1C2009C9A3A /* SettingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		39B8A0E52AE1883A002D8CA6 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +145,8 @@
 		39B8A0F02AE1883A002D8CA6 /* TestSnapkit */ = {
 			isa = PBXGroup;
 			children = (
+				395E34052AE3B18B009C9A3A /* Controller */,
+				395E34022AE3AB2F009C9A3A /* View */,
 				39B8A0F12AE1883A002D8CA6 /* AppDelegate.swift */,
 				39B8A0F52AE1883A002D8CA6 /* ViewController.swift */,
 				39B8A0FA2AE1883D002D8CA6 /* Assets.xcassets */,
@@ -399,6 +421,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395E34072AE3B1C2009C9A3A /* SettingController.swift in Sources */,
+				395E34042AE3AB95009C9A3A /* SettingView.swift in Sources */,
 				39B8A0F62AE1883A002D8CA6 /* ViewController.swift in Sources */,
 				39B8A0F22AE1883A002D8CA6 /* AppDelegate.swift in Sources */,
 			);
