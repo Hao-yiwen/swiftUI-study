@@ -19,7 +19,7 @@ struct SpinningEllipse: View {
                 .frame(width: width, height: 200)
                 .foregroundColor(.orange)
                 .onAppear {
-                    withAnimation(.easeInOut.repeatForever(autoreverses: true).speed(2)) {
+                    withAnimation(.easeInOut.repeatForever(autoreverses: true).speed(1)) {
                         width = 0
                     }
                 }

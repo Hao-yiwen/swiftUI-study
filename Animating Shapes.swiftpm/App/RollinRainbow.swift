@@ -8,7 +8,7 @@ struct RollinRainbowView: View {
     @State private var isAnimating = false
     @State private var gridColumns = Array(repeating: GridItem(.flexible()), count: 10)
     @State private var colors: [Color] = [.pink, .mint, .orange, .teal, .yellow, .cyan, .purple, .blue]
-    @State private var scaleFactor : CGFloat = 3
+    @State private var scaleFactor : CGFloat = 1
     
     let springAnimation = Animation.spring(response: 0.4, dampingFraction: 0.75, blendDuration: 0.9)
     
@@ -36,7 +36,7 @@ struct RollinRainbowView: View {
             Spacer()
             
             PlayResetButton(animating: $isAnimating, resetOnly: true) {
-                    scaleFactor = 3
+                    scaleFactor = 1
             }
         }
         .navigationTitle("Rollin' Rainbow")

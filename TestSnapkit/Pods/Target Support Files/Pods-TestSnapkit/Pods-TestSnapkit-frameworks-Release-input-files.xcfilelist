@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-TestSnapkit/Pods-TestSnapkit-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/TangramKit/TangramKit.framework

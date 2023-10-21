@@ -18,7 +18,7 @@ struct ExplodingView: View {
                         .foregroundColor(.indigo)
                         .offset(x: isExploded ? (Double.random(in: -1...1) * 500) : 0, y: isExploded ? (Double.random(in: -1...1) * 500) : 0)
                         .opacity(isExploded ? 0 : 1)
-                        .animation(.easeInOut.speed(0.6), value: isExploded)
+                        .animation(.easeInOut.speed(1), value: isExploded)
                         .padding()
                 }
                 Rectangle()

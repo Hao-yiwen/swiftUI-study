@@ -6,6 +6,7 @@ target 'TestSnapkit' do
   use_frameworks!
 
   pod 'SnapKit'
+  pod 'TangramKit'
 
   # Pods for TestSnapkit
 
