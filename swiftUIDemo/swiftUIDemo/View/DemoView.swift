@@ -36,6 +36,9 @@ struct DemoView: View {
                     .padding()
                     
                     Text("结果如下:" + fetchModel.data)
+                    
+                    Label("Lightning", systemImage: "bolt.fill")
+//                        .labelStyle(.titleOnly)
                 }
                 Spacer()
             }
