@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392D2CFE2AE5099B00C50D44 /* TangramKitSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D2CFD2AE5099B00C50D44 /* TangramKitSettingView.swift */; };
 		395E34042AE3AB95009C9A3A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E34032AE3AB95009C9A3A /* SettingView.swift */; };
 		395E34072AE3B1C2009C9A3A /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E34062AE3B1C2009C9A3A /* SettingController.swift */; };
 		397F67222AE4244D00682134 /* TangramKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F67212AE4244C00682134 /* TangramKitViewController.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		1196A5BEA1A74C9072281FEF /* Pods-TestSnapkit-TestSnapkitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSnapkit-TestSnapkitUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestSnapkit-TestSnapkitUITests/Pods-TestSnapkit-TestSnapkitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3571E1A0B4C19D5C3095B990 /* Pods-TestSnapkitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSnapkitTests.release.xcconfig"; path = "Target Support Files/Pods-TestSnapkitTests/Pods-TestSnapkitTests.release.xcconfig"; sourceTree = "<group>"; };
+		392D2CFD2AE5099B00C50D44 /* TangramKitSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangramKitSettingView.swift; sourceTree = "<group>"; };
 		395E34032AE3AB95009C9A3A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		395E34062AE3B1C2009C9A3A /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		397F67212AE4244C00682134 /* TangramKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TangramKitViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		395E34022AE3AB2F009C9A3A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				392D2CFD2AE5099B00C50D44 /* TangramKitSettingView.swift */,
 				395E34032AE3AB95009C9A3A /* SettingView.swift */,
 			);
 			path = View;
@@ -425,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				397F67222AE4244D00682134 /* TangramKitViewController.swift in Sources */,
+				392D2CFE2AE5099B00C50D44 /* TangramKitSettingView.swift in Sources */,
 				395E34072AE3B1C2009C9A3A /* SettingController.swift in Sources */,
 				395E34042AE3AB95009C9A3A /* SettingView.swift in Sources */,
 				39B8A0F62AE1883A002D8CA6 /* ViewController.swift in Sources */,

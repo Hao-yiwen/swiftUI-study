@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import TangramKit
 
 class SettingController: UIViewController {
 
@@ -15,37 +16,32 @@ class SettingController: UIViewController {
         
         title = "设置界面"
         
-        view.addSubview(settingView)
-        view.addSubview(collectView)
+        let container = TGLinearLayout(.vert)
+        container.tg_width.equal(.fill)
+        container.tg_height.equal(.wrap)
+        container.tg_top.equal(TGLayoutPos.tg_safeAreaMargin).offset(16)
+        container.tg_space = 1
         
-        settingView.snp.makeConstraints{make in
-            make.left.equalToSuperview()
-            make.right.equalToSuperview()
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(16)
-            make.height.equalTo(55)
-        }
+        container.addSubview(settingView)
+        container.addSubview(collectView)
         
-        collectView.snp.makeConstraints{make in
-            make.left.equalToSuperview()
-            make.right.equalToSuperview()
-            make.top.equalTo(settingView.snp.bottom).offset(1)
-            make.height.equalTo(55)
-        }
+        view.addSubview(container)
+        
     }
     
     @objc func onSettingClick(_ recognizer: UITapGestureRecognizer) {
         print(12312, recognizer)
     }
     
-    lazy var settingView: SettingView = {
-        let result = SettingView()
+    lazy var settingView: TangramKitSettingView = {
+        let result = TangramKitSettingView()
         result.titleView.text = "设置"
         result.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onSettingClick(_:))))
         return result
     }()
     
-    lazy var collectView: SettingView = {
-        let result = SettingView()
+    lazy var collectView: TangramKitSettingView = {
+        let result = TangramKitSettingView()
         result.titleView.text = "收藏"
         return result
     }()
