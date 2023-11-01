@@ -27,6 +27,12 @@ struct ListView: View {
             } label: {
                 Text("Uikit测试页面")
             }
+            NavigationLink {
+                TableView()
+            } label: {
+                Text("table页面")
+            }
+
 
 
         }

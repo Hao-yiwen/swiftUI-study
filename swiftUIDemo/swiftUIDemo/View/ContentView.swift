@@ -47,6 +47,7 @@ struct ContentView: View {
             .onChange(of: idString, { oldValue, newValue in
                 print(newValue)
             })
+            
         }
         .navigationTitle("输入测试页面")
 //        .onAppear {

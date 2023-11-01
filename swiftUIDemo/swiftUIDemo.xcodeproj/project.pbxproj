@@ -13,8 +13,12 @@
 		393C95E92AE789F400A59BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393C95E82AE789F400A59BA3 /* Assets.xcassets */; };
 		393C95EC2AE789F400A59BA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393C95EB2AE789F400A59BA3 /* Preview Assets.xcassets */; };
 		393C95F32AE78C5D00A59BA3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393C95F22AE78C5D00A59BA3 /* Launch Screen.storyboard */; };
+		395972272AF2B1F900E6D1D3 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395972262AF2B1F900E6D1D3 /* ScrollViewReader.swift */; };
+		395972292AF2B5F400E6D1D3 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395972282AF2B5F400E6D1D3 /* DatePickerView.swift */; };
 		3980B9672AF1582F00A33519 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3980B9662AF1582F00A33519 /* TestModel.swift */; };
 		398113012AF217A800FC8B12 /* ListView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398113002AF217A800FC8B12 /* ListView1.swift */; };
+		39B5B99B2AF2AAB0000B8AE7 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5B99A2AF2AAB0000B8AE7 /* TableView.swift */; };
+		39B5B99D2AF2AB21000B8AE7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5B99C2AF2AB21000B8AE7 /* Person.swift */; };
 		39D33ABE2AF20DEB008069AE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D33ABD2AF20DEB008069AE /* ListView.swift */; };
 		39E97C5A2AF27C510003DBBD /* TestModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E97C592AF27C510003DBBD /* TestModel1.swift */; };
 		39E97C5C2AF27C9E0003DBBD /* TestModel1List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E97C5B2AF27C9E0003DBBD /* TestModel1List.swift */; };
@@ -31,8 +35,12 @@
 		393C95E82AE789F400A59BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393C95EB2AE789F400A59BA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		393C95F22AE78C5D00A59BA3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		395972262AF2B1F900E6D1D3 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
+		395972282AF2B5F400E6D1D3 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		3980B9662AF1582F00A33519 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		398113002AF217A800FC8B12 /* ListView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView1.swift; sourceTree = "<group>"; };
+		39B5B99A2AF2AAB0000B8AE7 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		39B5B99C2AF2AB21000B8AE7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		39D33ABD2AF20DEB008069AE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		39E97C592AF27C510003DBBD /* TestModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel1.swift; sourceTree = "<group>"; };
 		39E97C5B2AF27C9E0003DBBD /* TestModel1List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel1List.swift; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 				3980B9662AF1582F00A33519 /* TestModel.swift */,
 				39E97C592AF27C510003DBBD /* TestModel1.swift */,
 				39E97C5B2AF27C9E0003DBBD /* TestModel1List.swift */,
+				39B5B99C2AF2AB21000B8AE7 /* Person.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +133,9 @@
 				39E97C5D2AF27D110003DBBD /* DemoView.swift */,
 				393C95E62AE789F200A59BA3 /* ContentView.swift */,
 				39E97C642AF29B260003DBBD /* UIViewController.swift */,
+				39B5B99A2AF2AAB0000B8AE7 /* TableView.swift */,
+				395972262AF2B1F900E6D1D3 /* ScrollViewReader.swift */,
+				395972282AF2B5F400E6D1D3 /* DatePickerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,14 +281,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				398113012AF217A800FC8B12 /* ListView1.swift in Sources */,
+				39B5B99B2AF2AAB0000B8AE7 /* TableView.swift in Sources */,
 				39E97C682AF29DC90003DBBD /* SuperDateUtil.swift in Sources */,
 				39E97C5E2AF27D110003DBBD /* DemoView.swift in Sources */,
+				395972272AF2B1F900E6D1D3 /* ScrollViewReader.swift in Sources */,
 				39E97C632AF2918C0003DBBD /* FetchModel.swift in Sources */,
+				395972292AF2B5F400E6D1D3 /* DatePickerView.swift in Sources */,
 				39D33ABE2AF20DEB008069AE /* ListView.swift in Sources */,
 				39E97C652AF29B260003DBBD /* UIViewController.swift in Sources */,
 				39E97C5C2AF27C9E0003DBBD /* TestModel1List.swift in Sources */,
 				3980B9672AF1582F00A33519 /* TestModel.swift in Sources */,
 				39E97C5A2AF27C510003DBBD /* TestModel1.swift in Sources */,
+				39B5B99D2AF2AB21000B8AE7 /* Person.swift in Sources */,
 				393C95E72AE789F200A59BA3 /* ContentView.swift in Sources */,
 				393C95E52AE789F200A59BA3 /* swiftUIDemoApp.swift in Sources */,
 			);
