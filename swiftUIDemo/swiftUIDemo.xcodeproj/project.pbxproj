@@ -19,6 +19,7 @@
 		39E97C5C2AF27C9E0003DBBD /* TestModel1List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E97C5B2AF27C9E0003DBBD /* TestModel1List.swift */; };
 		39E97C5E2AF27D110003DBBD /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E97C5D2AF27D110003DBBD /* DemoView.swift */; };
 		39E97C632AF2918C0003DBBD /* FetchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E97C622AF2918C0003DBBD /* FetchModel.swift */; };
+		39E97C652AF29B260003DBBD /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E97C642AF29B260003DBBD /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		39E97C5B2AF27C9E0003DBBD /* TestModel1List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel1List.swift; sourceTree = "<group>"; };
 		39E97C5D2AF27D110003DBBD /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		39E97C622AF2918C0003DBBD /* FetchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchModel.swift; sourceTree = "<group>"; };
+		39E97C642AF29B260003DBBD /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				398113002AF217A800FC8B12 /* ListView1.swift */,
 				39E97C5D2AF27D110003DBBD /* DemoView.swift */,
 				393C95E62AE789F200A59BA3 /* ContentView.swift */,
+				39E97C642AF29B260003DBBD /* UIViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				39E97C5E2AF27D110003DBBD /* DemoView.swift in Sources */,
 				39E97C632AF2918C0003DBBD /* FetchModel.swift in Sources */,
 				39D33ABE2AF20DEB008069AE /* ListView.swift in Sources */,
+				39E97C652AF29B260003DBBD /* UIViewController.swift in Sources */,
 				39E97C5C2AF27C9E0003DBBD /* TestModel1List.swift in Sources */,
 				3980B9672AF1582F00A33519 /* TestModel.swift in Sources */,
 				39E97C5A2AF27C510003DBBD /* TestModel1.swift in Sources */,

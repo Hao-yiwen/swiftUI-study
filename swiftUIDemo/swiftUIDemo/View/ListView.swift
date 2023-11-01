@@ -21,6 +21,13 @@ struct ListView: View {
             } label: {
                 Text("列表测试页面2")
             }
+            NavigationLink {
+                UIKitViewController()
+                    .edgesIgnoringSafeArea(.all)
+            } label: {
+                Text("Uikit测试页面")
+            }
+
 
         }
         .navigationTitle("列表")
